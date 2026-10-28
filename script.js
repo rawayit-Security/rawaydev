@@ -1,0 +1,1 @@
+document.getElementById('year').textContent=new Date().getFullYear();const toggle=document.getElementById('themeToggle');toggle.addEventListener('click',()=>{document.body.classList.toggle('low-glow');toggle.setAttribute('aria-pressed',String(document.body.classList.contains('low-glow')))});
